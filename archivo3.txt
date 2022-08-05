@@ -10,6 +10,11 @@ int main(){
     return 0;
 }
 
-void imprimir;
+void imprimir(){
+
+
+cout<<"Imprimiendo factura";
+
+}
 
 
