@@ -2,7 +2,7 @@ hola mundo
 simulacion codigo c++
 #include <iostream>
 using namespace std;
-void imprimir();
+int imprimir();
 int main(){
 
     cout<<"Primer programa";
@@ -10,7 +10,7 @@ int main(){
     return 0;
 }
 
-void imprimir(){
+int imprimir(){
 
     
 }
