@@ -1,33 +1,45 @@
 #include <iostream>
 using namespace std;
 
+string binario(int x);
 int main()
 {
 
-    int x,y,z;
+    int n1;
+    string resultado;
     
-    string r = " ";
-    string p;
+    
 
     cout<<"Bienvenido al conversor de decimal a binario"<<endl;
-    cout<<"Ingrese el numero que quiere convertir: "; cin>>x;
-    z=x;
-   do{
+    cout<<"Ingrese el numero que quiere convertir: "; cin>>n1;
+    resultado=binario(n1);
+   
 
-    if(x%2==0){
 
-        p="0";
-
-    }else{
-        p="1";
-    }
-
-    r=p+r;
-    x/=2;
-
-   }while(x>=1);
-
-    cout<<z<<" En binario es: "<<r;
+    cout<<n1<<" En binario es: "<<resultado;
   // system("pause");
    
+}
+
+string binario(int x){
+    string r = " ";
+    string p;
+    do
+    {
+
+        if (x % 2 == 0)
+        {
+
+            p = "0";
+        }
+        else
+        {
+            p = "1";
+        }
+
+        r = p + r;
+        x /= 2;
+
+    } while (x >= 1);
+    return r;
 }
