@@ -2,3 +2,5 @@ chanchito feliz
 chanchito feliz
 mario
 primer archivo para github
+cout<<"Hola mundo";
+print("Hola mundo")
