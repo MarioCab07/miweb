@@ -2,9 +2,15 @@ hola mundo
 simulacion codigo c++
 #include <iostream>
 using namespace std;
-
+void imprimir();
 int main(){
 
     cout<<"Primer programa";
+    imprimir
     return 0;
+}
+
+void imprimir(){
+
+    
 }
